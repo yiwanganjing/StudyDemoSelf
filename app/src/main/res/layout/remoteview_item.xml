@@ -3,20 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
-
-    <Button
-        android:id="@+id/button"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startRecyclerviewActivity"
-        android:text="recyclerview" />
-
-    <Button
-        android:id="@+id/button2"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startNotificationActivity"
-        android:text="通知" />
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:text="什么叫折叠通知，让我们来好好欣赏=一下"
+        />
 
 </LinearLayout>

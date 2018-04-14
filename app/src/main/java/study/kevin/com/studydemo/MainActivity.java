@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import study.kevin.com.studydemo.notification.NotificationActivity;
 import study.kevin.com.studydemo.recyclerview.RecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void startRecyclerviewActivity(View v) {
         startActivity(new Intent(this, RecyclerViewActivity.class));
+    }
+    public void startNotificationActivity(View v) {
+        startActivity(new Intent(this, NotificationActivity.class));
     }
 }
